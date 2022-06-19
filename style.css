@@ -2,7 +2,7 @@ body {
     width: 100%;
     margin: 0;
     background-color: hsl(0, 100%, 74%);
-    background-image: url(/Images/desktop.png);
+    background-image: url(../Images/desktop.png);
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
@@ -118,9 +118,8 @@ input:hover {
     cursor: pointer;
     color: #ffffff;
     font-size: 0.7rem;
-    padding: 3% 32%;
     text-decoration: none;
-    width: 100% !important;
+    width: 99% !important;
 
 }
 
@@ -149,10 +148,11 @@ span, .terms{
     color: hsl(0, 100%, 74%);
 }
 
+/* MEDIA QUERY */
 @media screen and (max-width: 770px) {
     body {
         background-color: hsl(0, 100%, 74%);
-        background-image: url(/Images/mobile.png);
+        background-image: url(../Images/mobile.png);
     }
     .main-div {
         display: flex;
