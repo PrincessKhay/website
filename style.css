@@ -82,7 +82,7 @@ input {
 
 input:hover {
     border: 1px solid hsl(0, 100%, 74%);
-    background: url(/Images/error.svg) no-repeat 7px 7px;
+    background: url(../Images/error.svg) no-repeat 7px 7px;
     background-position: 95% 50%;
 }
 
